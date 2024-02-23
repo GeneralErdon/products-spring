@@ -16,13 +16,6 @@ import com.practica1.app.ProductList.Producto;
 @RestController
 public class HelloController {
     String FILE_PATH = Path.of(
-            "/",
-            "home",
-            "erdon",
-            "Practicas",
-            "Java",
-            "Spring",
-            "Practica",
             "Datos.ser").toString();
     public void saveFile(ProductList obj){
         try {
